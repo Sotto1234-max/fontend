@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import VideoPanels from './components/VideoPanels';
 import ControlButtons from './components/ControlButtons';
 
-const socket = io('https://your-backend-url.onrender.com'); // ⛔ Replace this with your real backend URL
+const socket = io('https://backendnode-index-js.onrender.com'); // ⛔ Replace this with your real backend URL
 
 export default function App() {
   const localVideoRef = useRef(null);
